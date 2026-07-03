@@ -70,11 +70,11 @@ docs/
 └── model_description.md
 
 images/
-├── 00_Home
-├── 01_Visão-Geral
-├── 02_UF
-├── 03_Municipios
-├── 04_modelo-constelacao
+├── 00_Home.png
+├── 01_Visão-Geral.png
+├── 02_UF.png
+├── 03_Municipios.png
+├── 04_modelo-constelacao.png
 
 powerbi/
 └── Mercado_de_Trabalho_CAGED.pbix
@@ -103,11 +103,11 @@ O projeto utiliza uma **Constelação de Fatos**, composta por duas tabelas fato
 
 ### Página inicial
 
-![Dashboard](images/dashboard_01.png)
+![Dashboard](images/00_Home.png)
 
 ### Indicadores por Município
 
-![Municípios](images/dashboard_02.png)
+![Municípios](images/03_Municipios.png)
 
 Caso o arquivo esteja publicado no Power BI Service:
 
