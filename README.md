@@ -170,5 +170,5 @@ Marcos Vinícius
 
 Projeto desenvolvido para compor meu portfólio de Business Intelligence e Análise de Dados.
 
-- GitHub: https://github.com/seuusuario
-- LinkedIn: https://linkedin.com/in/seuperfil
+- GitHub: https://github.com/marcosvinicius-data
+- LinkedIn: https://linkedin.com/in/marcosvinicius-data
