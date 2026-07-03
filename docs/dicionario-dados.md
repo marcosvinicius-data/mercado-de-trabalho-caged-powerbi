@@ -1,6 +1,6 @@
 # 📖 Dicionário de Dados — Projeto mercado-de-trabalho-caged-powerbi
 
-Este documento descreve a estrutura, os tipos de dados e os relacionamentos das tabelas que compõem o Data Warehouse do projeto.
+Este documento descreve a estrutura, os tipos de dados e os relacionamentos das tabelas que compõem o projeto.
 
 ---
 
