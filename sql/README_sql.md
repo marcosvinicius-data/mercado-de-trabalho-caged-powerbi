@@ -1,4 +1,4 @@
-# 🧱 Modelagem SQL — Projeto CAGED BI
+# 🧱 Modelagem SQL — Projeto mercado-de-trabalho-caged-powerbi
 
 ## 📌 Visão Geral
 
