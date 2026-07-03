@@ -95,7 +95,7 @@ O projeto utiliza uma **Constelação de Fatos**, composta por duas tabelas fato
 
 📌 **Modelo completo**
 
-![Modelo Dimensional](images/modelo.png)
+![Modelo Dimensional](images/04_modelo-constelacao.png)
 
 ---
 
