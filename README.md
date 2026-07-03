@@ -77,7 +77,7 @@ images/
 ├── 04_modelo-constelacao
 
 powerbi/
-└── dashboard.pbix
+└── Mercado_de_Trabalho_CAGED.pbix
 
 sql/
 ├── 01_create_tables.sql
