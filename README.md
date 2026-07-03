@@ -102,7 +102,13 @@ Tabela fato contendo as métricas agregadas de movimentação de empregos no ní
 | `desligamentos` | INT | - | Total de desligamentos consolidados | `81200` |
 | `saldo` | INT | - | Resultado líquido do emprego na região | `4200` |
 
-## Como abrir o projeto
+## 🛠️ Como Replicar o Banco de Dados
+
+Se você quiser testar a modelagem deste projeto no seu ambiente local:
+1. Abra o seu gerenciador do **SQL Server (SSMS)**.
+2. Crie um novo banco de dados (ex: `CREATE DATABASE caged_bi;`).
+3. Execute o script contido na pasta `/sql/create_schema.sql`.
+4. O script criará automaticamente o **Modelo Estrela (Star Schema)** com todas as chaves, relacionamentos e a documentação nativa do dicionário de dados embutida nas tabelas.
 
 1. Clone o repositório.
 2. Abra o arquivo `.pbix` no Power BI Desktop.
