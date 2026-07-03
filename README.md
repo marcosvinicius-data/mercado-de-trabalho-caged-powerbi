@@ -62,8 +62,20 @@ Dashboard Power BI
 caged-bi-project/
 
 data/
-├── raw/
-└── processed/
+├── CAGED_2023.xlsb
+├──tabela 1.csv
+├──tabela 2.csv
+├──tabela 3.csv
+├──tabela 4.csv
+├──tabela 5.1.csv
+├──tabela 5.csv
+├──tabela 6.1.csv
+├──tabela 6.csv
+├──tabela 7.1.csv
+├──tabela 7.csv
+├──tabela 8.1.csv
+├──tabela 8.csv
+└── tabela 9.csv
 
 docs/
 ├── data_dictionary.md
