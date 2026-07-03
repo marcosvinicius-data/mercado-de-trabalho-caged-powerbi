@@ -61,6 +61,9 @@ Dashboard Power BI
 ```
 mercado-de-trabalho-caged-powerbi/
 
+dashboard/
+└── Mercado_de_Trabalho_CAGED.pbix
+
 data/
 ├── CAGED_2023.xlsb
 ├── tabela 1.csv
@@ -88,9 +91,6 @@ images/
 ├── 02_UF.png
 ├── 03_Municipios.png
 ├── 04_modelo-constelacao.png
-
-powerbi/
-└── Mercado_de_Trabalho_CAGED.pbix
 
 sql/
 ├── 01_create_tables.sql
