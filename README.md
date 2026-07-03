@@ -59,7 +59,7 @@ Dashboard Power BI
 ## 🗂 Estrutura do Repositório
 
 ```
-caged-bi-project/
+mercado-de-trabalho-caged-powerbi/
 
 data/
 ├── CAGED_2023.xlsb
