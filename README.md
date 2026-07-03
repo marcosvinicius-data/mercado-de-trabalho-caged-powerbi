@@ -1,42 +1,174 @@
-# Mercado de Trabalho Brasileiro - CAGED
+# 📊 CAGED BI – Análise do Mercado de Trabalho Brasileiro
 
-## Objetivo
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL_Server-DDL-CC2927?logo=microsoftsqlserver&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Desenvolver um dashboard analítico utilizando dados do Novo CAGED para acompanhar indicadores do mercado de trabalho brasileiro.
+---
 
-## Fonte dos dados
+## 📖 Sobre o projeto
 
-Novo CAGED – Ministério do Trabalho e Emprego.
+Este projeto apresenta um dashboard analítico desenvolvido no Power BI utilizando dados do Cadastro Geral de Empregados e Desempregados (CAGED).
 
-## Tecnologias
+O objetivo é transformar dados públicos em informações que permitam analisar o comportamento do mercado de trabalho brasileiro sob diferentes perspectivas temporais e geográficas.
 
-- Power BI
+Durante o desenvolvimento foram aplicados conceitos de:
+
+- Modelagem Dimensional
+- Constelação de Fatos (Fact Constellation)
+- Star Schema
 - Power Query
 - DAX
-- Modelagem Dimensional
+- Business Intelligence
 
-## Modelo de Dados
+---
 
-(inserir imagem do modelo estrela)
+## 🎯 Objetivos
 
-## Dashboard
+O dashboard permite responder perguntas como:
 
-(inserir imagens das páginas)
+- Como evoluiu o saldo de empregos ao longo do tempo?
+- Quais municípios apresentaram maior geração de empregos?
+- Quais estados tiveram melhor desempenho?
+- Como admissões e desligamentos se comportam em cada período?
+- Quais regiões concentram os maiores saldos?
 
-## Indicadores
+---
 
-- Admissões
-- Desligamentos
-- Saldo de Empregos
-- Variação
+## 🏛 Arquitetura do Projeto
 
-## Estrutura do Modelo
+```
+CAGED
+   │
+   ▼
+Power Query
+   │
+   ▼
+Modelo Dimensional
+(Constelação de Fatos)
+   │
+   ▼
+Medidas DAX
+   │
+   ▼
+Dashboard Power BI
+```
 
-- dim_contexto
-- dim_geografia
-- dim_municipio
-- fato_geografia
-- fato_municipio
+---
 
-1. Clone o repositório.
-2. Abra o arquivo `.pbix` no Power BI Desktop.
+## 🗂 Estrutura do Repositório
+
+```
+caged-bi-project/
+
+data/
+├── raw/
+└── processed/
+
+docs/
+├── data_dictionary.md
+└── model_description.md
+
+images/
+├── 00_Home
+├── 01_Visão-Geral
+├── 02_UF
+├── 03_Municipios
+├── 04_modelo-constelacao
+
+powerbi/
+└── dashboard.pbix
+
+sql/
+├── 01_create_tables.sql
+├── 02_relationships.sql
+└── README_sql.md
+
+README.md
+```
+
+---
+
+# 🧩 Modelo Dimensional
+
+O projeto utiliza uma **Constelação de Fatos**, composta por duas tabelas fato compartilhando uma dimensão temporal.
+
+📌 **Modelo completo**
+
+![Modelo Dimensional](images/modelo.png)
+
+---
+
+# 📈 Dashboard
+
+### Página inicial
+
+![Dashboard](images/dashboard_01.png)
+
+### Indicadores por Município
+
+![Municípios](images/dashboard_02.png)
+
+Caso o arquivo esteja publicado no Power BI Service:
+
+➡️ **Acesse o dashboard online:**
+
+> **(coloque aqui o link do Power BI Service)**
+
+---
+
+## 📊 Principais Indicadores
+
+- Total de admissões
+- Total de desligamentos
+- Saldo de empregos
+- Ranking de municípios
+- Ranking de estados
+- Evolução temporal
+- Indicadores regionais
+
+---
+
+## 🗃 Modelo de Dados
+
+| Tabela | Tipo |
+|---------|------|
+| dim_contexto | Dimensão |
+| dim_municipio | Dimensão |
+| dim_geografia | Dimensão |
+| fato_municipio | Fato |
+| fato_geografia | Fato |
+
+A documentação completa pode ser consultada em:
+
+📄 **docs/data_dictionary.md**
+
+📄 **docs/model_description.md**
+
+---
+
+## 🛠 Tecnologias
+
+- Power BI Desktop
+- Power Query
+- DAX
+- SQL Server (DDL)
+- Git
+- GitHub
+
+---
+
+## 📚 Base de Dados
+
+Os dados utilizados são provenientes do Cadastro Geral de Empregados e Desempregados (CAGED), disponibilizado pelo Governo Federal.
+
+---
+
+## 👤 Autor
+
+Marcos Vinícius
+
+Projeto desenvolvido para compor meu portfólio de Business Intelligence e Análise de Dados.
+
+- GitHub: https://github.com/seuusuario
+- LinkedIn: https://linkedin.com/in/seuperfil
