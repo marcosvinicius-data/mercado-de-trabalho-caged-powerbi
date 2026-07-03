@@ -13,6 +13,7 @@ Armazena as lentes temporais e cenários analíticos utilizados no projeto.
 | `descricao` | VARCHAR(50) | - | Descrição do período (ex: 2023, Nov/2023) | `Nov/2022 a Dez/2023` |
 | `tipo` | VARCHAR(20) | - | Tipo de agrupamento (ANO, MÊS, INTERVALO) | `INTERVALO` |
 | `data_inicio` | DATE | - | Data inicial do período de referência | `2022-11-01` |
+| `data_fim` | DATE | - | Data final do período de referência | `2023-12-31` |
 
 ---
 
