@@ -78,7 +78,8 @@ data/
 └── tabela 9.csv
 
 docs/
-├── data_dictionary.md
+├── Dicionario_de_Dados.xls
+├── dicionario-dados.md
 └── model_description.md
 
 images/
