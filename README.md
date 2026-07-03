@@ -81,7 +81,7 @@ data/
 └── tabela 9.csv
 
 docs/
-├── Dicionario_de_Dados.xls
+├── dicionario_de_dados.xls
 ├── data_dictionary.md
 └── model_description.md
 
