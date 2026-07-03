@@ -82,7 +82,7 @@ data/
 
 docs/
 ├── Dicionario_de_Dados.xls
-├── dicionario-dados.md
+├── data_dictionary.md
 └── model_description.md
 
 images/
