@@ -21,6 +21,8 @@ Durante o desenvolvimento foram aplicados conceitos de:
 - DAX
 - Business Intelligence
 
+transformando dados públicos em insights sobre o mercado de trabalho brasileiro
+
 ---
 
 ## 🎯 Objetivos
