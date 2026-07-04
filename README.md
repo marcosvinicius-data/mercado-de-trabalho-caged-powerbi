@@ -12,7 +12,7 @@ Este projeto apresenta um dashboard analítico desenvolvido no Power BI utilizan
 
 O objetivo é transformar dados públicos em informações que permitam analisar o comportamento do mercado de trabalho brasileiro sob diferentes perspectivas temporais e geográficas.
 
-Durante o desenvolvimento foram aplicados conceitos de:
+Durante o desenvolvimento, foram aplicados conceitos de:
 
 - Modelagem Dimensional
 - Constelação de Fatos (Fact Constellation)
@@ -20,8 +20,6 @@ Durante o desenvolvimento foram aplicados conceitos de:
 - Power Query
 - DAX
 - Business Intelligence
-
-transformando dados públicos em insights sobre o mercado de trabalho brasileiro
 
 ---
 
@@ -121,15 +119,19 @@ O modelo de dados foi estruturado em uma abordagem de constelação de fatos, pe
 
 ![Dashboard](images/00_Home.png)
 
+Descrição: visão consolidada de admissões, desligamentos e saldo.
+
 ### Indicadores por Município
 
 ![Municípios](images/03_Municipios.png)
 
-Caso o arquivo esteja publicado no Power BI Service:
+Descrição: ranking de municípios com maior geração de empregos.
 
-➡️ **Acesse o dashboard online:**
+### 🌍 Análise por Estado (UF)
 
-> **(coloque aqui o link do Power BI Service)**
+![UF](images/02_UF.png)
+
+Descrição: distribuição geográfica do emprego formal no Brasil.
 
 ---
 
