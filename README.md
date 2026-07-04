@@ -106,7 +106,8 @@ README.md
 
 # 🧩 Modelo Dimensional
 
-O projeto utiliza uma **Constelação de Fatos**, composta por duas tabelas fato compartilhando uma dimensão temporal.
+O modelo de dados foi estruturado em uma abordagem de constelação de fatos, permitindo múltiplas análises com dimensões conformadas.
+
 
 📌 **Modelo completo**
 
