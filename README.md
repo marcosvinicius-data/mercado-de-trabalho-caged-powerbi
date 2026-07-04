@@ -177,6 +177,13 @@ Os dados utilizados são provenientes do Cadastro Geral de Empregados e Desempre
 
 ---
 
+## 📊 Principais Insights
+
+- O setor X apresentou maior geração de empregos no período analisado
+- O estado Y lidera em saldo de admissões
+- Observa-se sazonalidade clara em determinados meses do ano
+- Municípios industriais concentram maior volume de empregos formais
+
 ## 👤 Autor
 
 Marcos Vinícius
