@@ -1,10 +1,6 @@
 # 📊 CAGED BI – Análise do Mercado de Trabalho Brasileiro
 
-[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-
-[![SQL Server](https://img.shields.io/badge/SQL_Server-DDL-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
-
-[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)[![SQL Server](https://img.shields.io/badge/SQL_Server-DDL-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
 ---
 
